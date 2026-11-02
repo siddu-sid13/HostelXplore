@@ -1,14 +1,16 @@
 import { useState } from 'react'
 
-import homeIcon from "url:../assets/images/home-icon.png"
-import signInIcon from "url:../assets/images/sign-in.svg"
-import menuIcon from "url:../assets/images/hamburger-menu.svg"
-import closeIcon from "url:../assets/images/close-icon.svg"
-import addUserIcon from "url:../assets/images/add-user.png"
-import navHomeIcon from "url:../assets/images/home-icon-for-nav-item.svg"
-import addIcon from "url:../assets/images/add-icon.svg"
-import searchIcon from "url:../assets/images/search-icon.svg"
-import supportIcon from "url:../assets/images/support-icon.svg"
+import homeIcon from "url:../../assets/images/home-icon.png"
+import signInIcon from "url:../../assets/images/sign-in.svg"
+import menuIcon from "url:../../assets/images/hamburger-menu.svg"
+import closeIcon from "url:../../assets/images/close-icon.svg"
+import addUserIcon from "url:../../assets/images/add-user.png"
+import navHomeIcon from "url:../../assets/images/home-icon-for-nav-item.svg"
+import addIcon from "url:../../assets/images/add-icon.svg"
+import searchIcon from "url:../../assets/images/search-icon.svg"
+import supportIcon from "url:../../assets/images/support-icon.svg"
+
+import "./Header.css"
 // import "../styles.css"
 export default function Header() {
     console.log(homeIcon)

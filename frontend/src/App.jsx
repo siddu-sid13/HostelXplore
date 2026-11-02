@@ -1,5 +1,5 @@
-import Header from "../src/components/Header"
-import Hero from "../src/components/Hero"
+import Header from "../src/components/Header/Header"
+import Hero from "./components/Hero/Hero"
 export default function App(){
     return(
        <>

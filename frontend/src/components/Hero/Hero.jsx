@@ -1,8 +1,10 @@
-import currencyRupee from "url:../assets/images/currency-rupee.svg"
-import dropDownIcon from "url:../assets/images/drop-down.svg"
-import groupIcon from "url:../assets/images/group-icon.svg"
-import genderIcon from "url:../assets/images/person-check-icon.svg"
-import searchIcon from "url:../assets/images/search-icon.svg"
+import currencyRupee from "url:../../assets/images/currency-rupee.svg"
+import dropDownIcon from "url:../../assets/images/drop-down.svg"
+import groupIcon from "url:../../assets/images/group-icon.svg"
+import genderIcon from "url:../../assets/images/person-check-icon.svg"
+import searchIcon from "url:../../assets/images/search-icon.svg"
+import "./Hero.css"
+
 export default function Hero() {
     return (
 

@@ -10,16 +10,57 @@ export default function Hero() {
             <div className="hero-text">
                 <p>FIND YOUR NEXT HOME</p>
                 <div className="hero-text-heading">
-                    <h1>Find Your Perfect</h1>
-                    <h1>Hostel & PG</h1>
+                    <h1>Find Your Perfect
+                        <br />
+
+
+                        <span>Hostel & PG</span>
+                    </h1>
                 </div>
                 <p>Explore verified hostels near your college or workplace.Compare prices,facilities,and reviews - all in one place.</p>
             </div>
 
+            {/* <div className="search-hostels-container">
+                <div className="search-input-container">
+                    <input className="search-input" type="text" placeholder="Search by city,area, or hostel name..." />
+                </div>
+
+                <div className="search-filters-row">
+                    <div className="dropdown-menu-container price-range-container">
+                        <div className="dropdown-name-and-icon-container">
+                            <img src={currencyRupee} alt="currency rupee" />
+                            <p>Price Range</p>
+                        </div>
+                        <img src={dropDownIcon} alt="drop down icon" />
+                    </div>
+                    <div className="dropdown-menu-container room-sharing-container">
+                        <div className="dropdown-name-and-icon-container">
+                            <img src={groupIcon} alt="currency rupee" />
+                            <p>Room Sharing</p>
+                        </div>
+                        <img src={dropDownIcon} alt="drop down icon" />
+                    </div>
+
+                    <div className="dropdown-menu-container gender-container">
+                        <div className="dropdown-name-and-icon-container">
+                            <img src={genderIcon} alt="currency rupee" />
+                            <p>Gender</p>
+                        </div>
+                        <img src={dropDownIcon} alt="drop down icon" />
+                    </div>
+                    <div className="search-btn-container">
+
+                        <button className="search-btn"><img src={searchIcon} alt="search-icon" className="search-icon-white" /> Search Hostels</button>
+                    </div>
+                </div>
+
+            </div> */}
             <div className="search-hostels-container">
                 <div className="search-input-container">
                     <input className="search-input" type="text" placeholder="Search by city,area, or hostel name..." />
                 </div>
+
+
                 <div className="dropdown-menu-container price-range-container">
                     <div className="dropdown-name-and-icon-container">
                         <img src={currencyRupee} alt="currency rupee" />
@@ -46,6 +87,8 @@ export default function Hero() {
 
                     <button className="search-btn"><img src={searchIcon} alt="search-icon" className="search-icon-white" /> Search Hostels</button>
                 </div>
+
+
             </div>
         </section>
     )

@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero"
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs"
 import FeaturedHostels from "./components/Featured Hostels/FeaturedHostels"
 import Testimonials from "./components/Testimonials/Testimonials"
+import CTA from "./components/CTA/CTA"
 export default function App(){
     return(
        <>
@@ -11,6 +12,7 @@ export default function App(){
         <WhyChooseUs/>
         <FeaturedHostels/>
         <Testimonials/>
+        <CTA/>
        </>
     )
 }

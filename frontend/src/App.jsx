@@ -4,6 +4,8 @@ import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs"
 import FeaturedHostels from "./components/Featured Hostels/FeaturedHostels"
 import Testimonials from "./components/Testimonials/Testimonials"
 import CTA from "./components/CTA/CTA"
+import Footer from "./components/Footer/footer"
+
 export default function App(){
     return(
        <>
@@ -13,6 +15,7 @@ export default function App(){
         <FeaturedHostels/>
         <Testimonials/>
         <CTA/>
+        <Footer/>
        </>
     )
 }
